@@ -5,10 +5,11 @@ metadata:
   title: Galaxy.Services_Shared
   description: Base Service for all Services
   labels: 
-    - key1: value1
+    key1: value1
   annotations:
-    - annotations1: value1
-  tags: tag1, tag2, tag3
+    annotations1: value1
+  tags: 
+    - c#
   links:
     - title: Website
       url: http://backstage.io
@@ -17,5 +18,4 @@ spec:
   owner: Collabware
   lifecycle: Development
   system: public-services
-  dependsOn:
-    - component: System
+ 
