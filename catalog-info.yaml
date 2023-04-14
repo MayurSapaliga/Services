@@ -12,4 +12,4 @@ spec:
   owner: Collabware
   lifecycle: production
   dependencyOf:
-    Galaxy.Services.Membership
+    - Galaxy.Services.Membership
