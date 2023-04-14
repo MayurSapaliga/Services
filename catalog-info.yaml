@@ -1,6 +1,8 @@
 apiVersion: v1
 kind: Component
 metadata:
+  annotations:
+    https://github.com/MayurSapaliga/Services: Our-example
   name: Services
   title: Galaxy.Services_Shared
   description: Base Service for all Services
