@@ -4,18 +4,4 @@ metadata:
   annotations:
     https://github.com/MayurSapaliga/Services: Our-example
   name: Services
-  title: Galaxy.Services_Shared
   description: Base Service for all Services
-  labels: 
-    key1: value1
-  tags: 
-    - c#
-  links:
-    - title: Website
-      url: http://backstage.io
-spec:
-  type: Service
-  owner: Collabware
-  lifecycle: Development
-  system: public-services
- 
