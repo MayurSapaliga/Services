@@ -1,15 +1,6 @@
-apiVersion: backstage.io/v1alpha1
 kind: Component
-metadata:
-  name: Galaxy.Services
-  description: |
-    Low level shared serives
-  links:
-    - title: Website
-      url: https://collabware.com
-spec:
-  type: service
-  owner: Collabware
-  lifecycle: production
-  dependencyOf:
-    - Galaxy.Services.Membership
+type: service
+name: galaxy.services
+system: v3
+providesApi:
+  - shared-api
