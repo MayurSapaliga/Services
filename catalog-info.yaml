@@ -1,23 +1,13 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: asdasdqweqweasdasdqweqweasdasdqweqwe
+  name: Galaxy.Services
   description: |
-    Hello world.
+    Low level shared serives
   links:
     - title: Website
-      url: http://backstage.io
-    - title: Documentation
-      url: https://backstage.io/docs
-    - title: Storybook
-      url: https://backstage.io/storybook
-    - title: Discord Chat
-      url: https://discord.com/invite/EBHEGzX
-  annotations:
-    github.com/project-slug: backstage/backstage
-    backstage.io/techdocs-ref: dir:.
-    lighthouse.com/website-url: https://backstage.io
+      url: https://collabware.com
 spec:
-  type: library
+  type: service
   owner: Collabware
-  lifecycle: experimental
+  lifecycle: production
