@@ -1,23 +1,21 @@
-apiVersion: backstage.io/v1alpha1
+apiVersion: v1
 kind: Component
 metadata:
   name: Services
-  description: |
-    Base Service for all Services
+  title: Galaxy.Services_Shared
+  description: Base Service for all Services
+  labels: 
+    - key1: value1
+  annotations:
+    - annotations1: value1
+  tags: tag1, tag2, tag3
   links:
     - title: Website
       url: http://backstage.io
-    - title: Documentation
-      url: https://backstage.io/docs
-    - title: Storybook
-      url: https://backstage.io/storybook
-    - title: Discord Chat
-      url: https://discord.com/invite/EBHEGzX
-  annotations:
-    github.com/project-slug: Services
-    backstage.io/techdocs-ref: dir:.
-    lighthouse.com/website-url: https://backstage.io
 spec:
-  type: library
-  owner: CNCF
-  lifecycle: experimental
+  type: Service
+  owner: Collabware
+  lifecycle: Development
+  system: public-services
+  dependsOn:
+    - component: System
