@@ -1,22 +1,15 @@
-apiVersion: backstage.io/v1alpha1
+apiVersion: collabwarev3/shared/1
 kind: Component
 metadata:
-  name: artist-web
-  description: The place to be, for great artists
-  labels:
-    example.com/custom: custom_label_value
-  annotations:
-    example.com/service-discovery: artistweb
-    circleci.com/project-slug: github/example-org/artist-website
-  tags:
-    - java
+  name: V3 Shared Service
+  description: |
+    This is the shared service pf collabwarev3
   links:
-    - url: https://admin.example-org.com
-      title: Admin Dashboard
-      icon: dashboard
-      type: admin-dashboard
+    - title: Website
+      url: https://www.collabware.com
+  annotations:
+    github.com/project-slug: backstage/backstage
 spec:
-  type: website
-  lifecycle: production
-  owner: artist-relations-team
-  system: public-websites
+  type: Microservice
+  owner: Collabware
+  lifecycle: experimental
