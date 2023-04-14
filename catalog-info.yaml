@@ -1,9 +1,9 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Collabware.Services.Shared
+  name: sharedservice
   description: |
-    Backstage is an open-source developer portal that puts the developer experience first.
+    Hello world.
   links:
     - title: Website
       url: http://backstage.io
