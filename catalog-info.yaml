@@ -11,3 +11,5 @@ spec:
   type: service
   owner: Collabware
   lifecycle: production
+  dependencyOf:
+    Galaxy.Services.Membership
