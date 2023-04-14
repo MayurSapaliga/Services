@@ -1,4 +1,4 @@
-apiVersion: collabwarev3/shared/1
+apiVersion: collabwarev3/shared1
 kind: Component
 metadata:
   name: V3 Shared Service
@@ -10,6 +10,6 @@ metadata:
   annotations:
     github.com/project-slug: backstage/backstage
 spec:
-  type: Microservice
-  owner: Collabware
+  type: library
+  owner: CNCF
   lifecycle: experimental
